@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Clínica Ricardo Palma</title>
+    <link rel="shortcut icon" href="https://www.crp.com.pe/wp-content/themes/crp/images/favicon.png" type="image/png">
+    @Styles.Render("~/Content/css")
+    @Styles.Render("~/Content/fontawesome")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <!-- Header -->
+    <header class="">
+        <div class="container">
+            <a class="logo animated zoomIn" href="https://www.crp.com.pe/">
+                <img class="mostrar" src="~/Content/img/Logo-Clinica-JCI.png" alt="" width="" height="">
+                <img class="ocultar" src="~/Content/img/Logo-Clinica-JCI-horizontal.png" alt="" width="" height="">
+            </a>
+
+            <div class="h-main animated fadeInDown">
+                <div class="h-blockUp">
+                    <ul class="options">
+                        <li class="dir">
+                            <i class="fas fa-phone-alt"></i> (511) 224·2224 / (511) 224·2226
+                        </li>
+                        <li class="dir">
+                            <i class="fas fa-map-marker-alt"></i> Av. Javier Prado Este 1066 Urb. Corpac - 15036 Perú
+                        </li>
+                        <li class="portal">
+                            <i class="fas fa-user"></i>
+                            <a class="color-green-b" href="https://www.crp.com.pe/atencion-al-usuario/">Portal del paciente</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="h-blockDown">
+                <nav class="menu">
+                    <a href="https://www.crp.com.pe/#" class="menu-mobile"></a>
+                    <ul>
+                        <li><a href="https://www.crp.com.pe/plantel-medico/" target="">Sedes</a></li>
+                        <li>
+                            <a href="https://www.crp.com.pe/servicios-asistenciales/" target="">Especialidades</a>
+                        </li>
+                        <li>
+                            <a href="https://www.crp.com.pe/atencion-al-usuario?contactanos=true" target="">
+                                Contacto
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Mi aplicación ASP.NET</p>
+        </footer>
+    </div>
+
+    <footer>
+        <div class="av-container av-visible">
+            <div class="foot-up aniview animated fadeIn" data-av-animation="fadeIn" style="opacity: 1;">
+                <div class="container">
+                    <div class="box-01">
+                        <figure>
+                            <h3>Contacto</h3>
+                        </figure>
+                        <ul>
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <p>Av. Javier Prado Este 1066<br>Urb. Corpac – 15036 Perú</p>
+                                <p></p>
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope"></i>
+                                <p><a href="mailto:webmaster@crp.com.pe">webmaster@crp.com.pe</a></p>
+                                <p></p>
+                            </li>
+                            <li>
+                                <i class="fas fa-phone-alt"></i>
+                                <p>(511) 224·2224 / (511) 224·2226</p>
+                                <p></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="foot-bottom">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/ClinicaRicardoPalma" target="_blank" title="facebook"><img src="~/Content/img/icon_f.png"></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/CRicardoPalma" target="_blank" title="twitter"><img src="~/Content/img/icon_t.png"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/user/ClinicaRicardoPalma" target="_blank" title="youtube"><img src="~/Content/img/icon_y.png"></a>
+                    </li>
+                </ul>
+            </div>
+    </footer>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

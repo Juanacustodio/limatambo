@@ -1,0 +1,1304 @@
+
+.error{
+	border-bottom: 1px solid red !important;
+}
+
+select.error  + span{
+	border-bottom: 1px solid red !important;
+}
+
+.novalidate{
+	color: red !important;
+}
+
+.ocultaNotiMes, .ocultaNotiAnio, .ocultaMasPost {
+    display: none !important;
+}
+
+@media screen and (max-width: 830px) {
+	#itemContainerMedico .hidden {
+	    display: none !important;
+    }
+    
+    .container-detalle-medico .content-detalle-medico .left h1 {
+        text-align: center;
+    }
+
+}
+
+
+@media screen and (max-width: 1000px) {
+
+	.accordion-encuentranos .box-botones a{
+		display: none;
+	}
+}
+
+.content-comentario ol.commentlist {
+    list-style: none;
+}
+
+.commentlist li {
+    /* padding: 30px; */
+}
+
+
+@media screen and (max-width: 827px) {
+
+	.box-formulario-afiliar .form-input label {
+		font-size: 13px;
+	}
+
+}
+
+.form-desc{
+	text-align: center;
+    padding: 30px 0 0 0;
+    font-weight: 700;
+}
+
+.input-desc{
+	border: solid 4px #e9e9e9;
+    border-radius: 30px;
+    background: white;
+    width: 140px;
+    margin: 20px auto 0;
+    padding: 6px 0;
+}
+
+.modalct{
+	display: none;
+}
+
+.slider-page .banner li {
+	height: 100%;
+}
+
+
+
+.option-fixed-chat ul li,
+.option-fixed-cita ul li {
+	padding-left: 25px;
+}
+
+.especialidad .content-foot{
+	margin-top: 0
+}
+
+.comment.list .comment-meta + p{
+	text-align: justify;
+}
+
+@media screen and (min-width: 1000px){
+    .especialidad .cabecera-banner-page .slider-page p{
+        max-width: 45%;
+        padding-right: 0
+    }
+}
+
+.container-nosotros .container-detalle-historia .contenido ul li{
+	position: relative;
+	padding-left: 10px
+}
+
+.container-nosotros .container-detalle-historia .contenido ul li::before{
+	content: "";
+	width: 5px;
+	height: 5px;
+	display: inline-block;
+	position: absolute;
+	left: 0px;
+	background: white;
+	border-radius: 50%;
+	top: 7px;
+}
+
+.container-nosotros .container-valores-nosotros ul{font-size: 14px}
+
+.especialidad .container-detalle-medico .content-detalle-medico .left ul{font-size: 15px}
+.section-requisitos .lista-requisitos{font-size: 15px}
+.section-beneficios .section-beneficios-inner{font-size: 15px}
+.accordion-section-content-encuentranos{font-size: 15px;}
+.container-atencion-usuario .container-consultas p{font-size: 15px}
+.container-atencion-usuario .container-preguntas-frecuentes p{font-size: 15px}
+.container-atencion-usuario .container-procesos p{font-size: 15px}
+.container-plantel-medico .content-plantel-medico ul{margin-bottom: 15px}
+.container-atencion-usuario .container-preguntas-frecuentes .accordion-preguntas .accordion-section .accordion-section-content.open ul p{font-size: 15px}
+
+@media screen and (max-width: 1000px){
+
+	.banner li {
+	   margin-top: 30px;
+	}
+}
+
+.plan-medico .content-plantel-medico {
+    padding-bottom: 0px;
+}
+
+.container-detalle-medico .content-foot {
+    position: static;
+}
+
+.especialidad .container-detalle-medico .av-container {
+    margin-top: 40px;
+}
+
+.servicio .container-detalle-medico .content-detalle-medico .container .left ul li {
+    position: relative;
+}
+
+.servicio .container-detalle-medico .content-detalle-medico .container .left ul li:before {
+    position: absolute;
+    left: -10px;
+}
+
+.content-detalle-medico ul {
+    padding-left: 3%;
+}
+
+section#preguntasFrecuentes ol {
+    padding: 0 27%;
+}
+
+@media screen and (max-width: 1000px){
+	.banner .box-slider h2 {
+	    color: white;
+	}
+}
+
+@media screen and (max-width: 1000px){
+	.banner li .box-slider {
+	    position: absolute;
+	}
+}
+
+.content-sedes-medico + div {
+    padding-top: 20px;
+}
+
+@media screen and (min-width: 830px){
+	.servicio .cabecera-banner-page .slider-page h2 {
+	    padding-left: 0px !important;
+	}
+}
+
+@media screen and (max-width: 829px){
+
+	.servicio .cabecera-banner-page .slider-page h2 {
+	    padding-left: 0px;
+	}
+}
+
+@media screen and (min-width: 1000px){
+	.servicio .cabecera-banner-page .slider-page h2 {
+	    padding-left: 6px !important;
+	}
+}
+
+.content-home .content-estadistica .container .content-box{align-items: start;}
+
+.investigacion-innovacion .cabecera-banner-page .slider-page .banner li .box-slider {
+    bottom: 43px;
+}
+
+
+.bml {margin-left: 10%;}
+
+.bml .field button#search {
+    background: white;
+    border-bottom: 1px solid #00B2A9;
+    border-left: 0;
+    border-right: 1px solid #00B2A9;
+    border-top: 1px solid #00B2A9;
+    color: #909092;
+    font-size: 26px;
+    padding-right: 13px;
+    border-top-right-radius: 31px;
+    border-bottom-right-radius: 31px;
+}
+
+.bml .field {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    width: 82%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.bml .field input::placeholder {
+    color: #00B2A9;
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+.bml .field input#s {
+    line-height: normal;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 7px;
+    border-top: 1px solid #00B2A9;
+    border-left: 1px solid #00B2A9;
+    border-bottom: 1px solid #00B2A9;
+    border-right: 0;
+    border-top-left-radius: 31px;
+    border-bottom-left-radius: 31px;
+    padding-left: 15px;
+}
+
+.owl-carousel .owl-stage {
+    margin: 0 auto;
+    }
+
+.owl-nav{
+    display: none;
+}
+
+.tab-panels .noresultados{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.container-banner-plantel .contenido {
+    background: transparent;
+    max-width: 1300px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1099px){
+
+    .container-plantel-medico .content-search .container form{
+        height: auto;
+        max-width: 90%;
+    }
+
+}
+
+.container-banner-plantel .banner-tablet{
+    background-color: white;
+}
+
+/* Borde galeria */
+
+section.galeria_tab .tab-panels .tab-panel div>div {
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+}
+
+section.galeria_tab .tab-panels .tab-panel div.oculto {
+    display: none;
+}
+
+@media (max-width: 930px) {
+    body.galeria .banner_galeria h1{
+        width: 100%;
+        text-align: center;
+        left: 0;
+    }
+
+    body.galeria .banner_galeria h1 span{
+       display: none;
+    }
+
+    body.galeria .tab-panels h3 {
+        width: 100%;
+        text-align: center;
+    }
+
+    body.galeria .tab-panels h3 {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.container-plantel-medico .content-plantel-medico ul li a .contenido span.btn-green{
+    display: none;
+}
+
+body.plan-medico #itemContainerMedico li a:hover span.btn-green{
+    display: block;
+}
+
+body.especialidad #itemContainerMedico li a:hover span.btn-green{
+    display: block;
+}
+
+
+@media screen and (max-width: 1099px) {
+    .container-plantel-medico .content-plantel-medico ul li a .contenido span.btn-green{
+        display: block;
+        background: #E5425A
+    }
+    
+}
+
+@media screen and (max-width: 1024px) {
+
+    body.especialidad.especialidad .cabecera-banner-page .slider-page .dividir p{
+        display: none;
+    }
+
+    body.especialidad.especialidad .cabecera-banner-page .banner .owl-especialidad-detalle h3{
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    body.especialidad.especialidad .cabecera-banner-page .banner .owl-especialidad-detalle h4{
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    body.especialidad.especialidad .cabecera-banner-page .banner .owl-especialidad-detalle div img + ul li{
+        text-align: center;
+    }
+
+    body.especialidad.especialidad .cabecera-banner-page .banner .owl-especialidad-detalle a{
+        text-align: center;
+        margin: 15px auto;
+    }
+}
+
+.g-recaptcha>div{
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+body.plan-medico .content-detalle-medico .right img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+@media screen and (max-width: 700px) {
+
+    .especialidad .cabecera-banner-page .banner .owl-especialidad-detalle .dividir .anexo{
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .owl-carousel.owl-theme.owl-don-diego.miniaturas{
+        display: none;
+    }
+    .especialidad .cabecera-banner-page .banner .owl-especialidad-detalle h1{
+        max-width: initial;
+        text-align: center;
+    }
+    body.especialidad.especialidad .cabecera-banner-page .banner .owl-especialidad-detalle div img + ul li{
+        text-align: left;
+    }
+    .especialidad .cabecera-banner-page .slider-page .dividir > div:first-child{
+        max-width: initial !important;
+        margin: 0 !important;
+    }
+ 
+}
+
+@media screen and (max-width: 444px) {
+
+    .especialidad .cabecera-banner-page .banner .owl-especialidad-detalle .dividir .anexo{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+
+body.galeria .container-plantel-medico .content-foot {
+    margin-top: 65px;
+}
+
+.plan-medico .tabset > input[type="radio"]:checked + label {
+    color: #00b2a9;
+    font-weight: bold;
+}
+
+/* .plan-medico .option-fixed-cita,
+.eli {
+  top: 246px;
+} */
+
+.plan-medico .tabset > input[type="radio"] + label img:nth-child(2){
+    display: none
+}
+.plan-medico .tabset > input[type="radio"]:checked + label img:nth-child(1){
+    display: none
+}
+
+.plan-medico .tabset > input[type="radio"]:checked + label img:nth-child(2){
+    display: inline-table;
+    MARGIN: 0 AUTO;
+}
+@media screen and (min-width: 830px){
+    .plan-medico .container-detalle-medico .content-detalle-medico .left{
+        width: 35%;
+        
+    }
+    .plan-medico .tab-conten > h4{
+        text-align: left;
+        padding-left: 20px;
+    }
+    .plan-medico .content-detalle-medico .container .row #container-contacto{
+        padding-top: 0;
+    }
+    .plan-medico .content-detalle-medico .container .left{
+        padding-top: 40px;
+    }
+    .plan-medico .container-detalle-medico .content-detalle-medico .right{
+        VERTICAL-ALIGN: bottom;
+    }
+
+    
+}
+body.plan-medico .content-detalle-medico .right img{
+    width: auto;
+    position: relative;
+    top: 4px;
+}
+
+.plan-medico .tabset .tab-panels{
+    border-top: 1px solid gray;
+}
+.plan-medico .tabset > input[type="radio"] + label p{
+    position: relative;
+}
+.plan-medico .tabset > input[type="radio"]:checked + label p:before{
+    content: "";
+    width: 100px;
+    height: 3px;
+    background: #00b3a9;
+    display: block;
+    position: absolute;
+    top: 37px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media (max-width: 706px){
+    .plan-medico .tabset label{
+        padding: 0;
+    }
+}
+
+@media (max-width: 500px){
+    .plan-medico .tabset label{
+        width: 100px;
+    }
+}
+
+.especialidad .cabecera-banner-page .slider-page .dividir > div:first-child{
+    max-width: 350px;
+    margin-left: 20%;
+}
+@media screen and (min-width: 1000px){
+    .especialidad .cabecera-banner-page .slider-page p{
+        max-width: initial
+    }
+}
+
+#container-contacto{
+    align-items: center;
+}
+
+.espacio{
+    display: block;
+    height: 60px;
+}
+
+.plan-medico .container-detalle-medico .contenido .parte1 > div:first-child {
+    margin-bottom: 40px;
+}
+
+.miniaturas{
+    position: relative;
+    text-align: center;
+    margin-top: -93px;
+    height: 100%;
+    z-index: 99999999999999999999999999999999999999;
+    border-top: solid 1px rgba(0, 0, 0, 0.1);
+    width: 85%;
+    left: 80px;
+}
+
+/* .miniaturas::before {
+    content: "";
+    width: 85%;
+    height: 1px;
+    display: block;
+    background: gray;
+    position: absolute;
+    top: -7px;
+    left: 78px;
+} */
+
+.carousel-especialidad .miniaturas a{
+    /* display: inline-block; */
+    margin: 0;
+    padding: 0;
+    width: auto;
+    border: 1px solid #AAAAAA;
+    margin: 10px 15px;
+}
+
+.carousel-especialidad .miniaturas a img {
+    height: auto;
+    width: 95px;
+}
+
+.flo_cita {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 888888;
+    width: 90px;
+    transform: translateY(-50%);
+}
+
+.flo_cita.option-bottom{
+    top: auto !important;
+    bottom: 10px;
+    position: fixed;
+}
+
+.especialidad .cabecera-banner-page .banner .owl-don-diego img {
+    width: 100%;
+}
+
+.flo_cita.option-bottom a{
+    right: -60px;
+    position: relative;
+    display: block;
+    top: 0;
+}
+
+.flo_cita.option-bottom a:hover{
+    right: 0;
+}
+
+@media (max-width: 800px){
+
+    .plan-medico .tabset .tab-panels .info .contenido1 > div {
+        padding-left: 0% !important;
+    }
+
+    .plan-medico .tabset .tab-panels .info .contenido1 .profe {
+        padding-left: 0% !important;
+        margin: 0 auto !important;
+    }
+}
+
+/*CAMBIOS FERNANDO*/
+
+.plan-medico .container-plantel-medico .content-plantel-medico .container .btn.btn-red {
+    margin-bottom: 25px;
+    margin-top: 0px!important;
+}
+
+.plan-medico .container-plantel-medico .content-plantel-medico ul {
+    margin-bottom: 0px!important;
+}
+
+
+
+.plan-medico .container-detalle-medico .content-detalle-medico .container .left .row #container-contacto #num-telf {
+    padding-left: 22px;
+    line-height: 1.5;
+}
+
+
+
+body.galeria .tab-panels .btn-red {
+    width: 100%;
+    border-radius: 0;
+}
+
+/*PLANTEL MEDICO*/
+
+
+.container-banner-plantel-medico, .container-banner-servicio-apoyo-diagnostico, .container-banner-plan-salud, .cabecera-banner-page, .container-banner-atencion, .container-banner-noticias{
+    position: relative;
+}
+  
+
+
+.plan-medico .content-detalle-medico .container .left {
+
+    padding-left: 11px;
+}
+
+
+
+
+.plan-medico .container-detalle-medico .tabset .tab-panels .tab-conten h4 {
+    padding-left: 0px;
+}
+
+
+
+
+
+.plan-medico .container-detalle-medico .tabset .tab-panels .info .contenido1 .profe {
+    padding-left: 60px;
+}
+
+.plan-medico .container-detalle-medico .tabset .tab-panels .info .contenido1 > div {
+    padding-left: 40px;
+}
+
+
+
+
+.plan-medico .container-detalle-medico .tabset .tab-panels #dunkies .tab-conten .contenedor .contenido .parte1 > div:first-child {
+    margin-bottom: 0px;
+}
+
+
+
+
+.plan-medico .container-detalle-medico .tabset .tab-panels #dunkies .tab-conten .contenedor .contenido .parte1 > div:first-child {
+    margin-top: 30px;
+}
+
+.plan-medico .container-detalle-medico .tabset .tab-panels #dunkies .tab-conten .contenedor .contenido .parte1 > div:nth-child(2) {
+    margin-bottom: 30px;
+}
+
+
+.plan-medico .container-detalle-medico .tabset .tab-panels #dunkies .tab-conten .contenedor .contenido .parte2 .contenido-horario h4{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+
+
+.especialidad #main .cabecera-banner-page .slider-page .banner .container .dividir .carousel-especialidad .item .dividir > div:nth-child(2) {
+    margin-top: 20px;
+}
+
+
+
+
+
+.plan-medico .container-plantel-medico .content-search .container #buscarPlantel #idEspecialidad-button {
+    border-right: 0px;
+}
+
+
+
+.plan-medico .container-plantel-medico .content-search .container #buscarPlantel .content-input-circle.box-1:nth-child(1) {
+    border-right: 1px solid #EFEFEF;
+}
+
+
+.especialidad #main .cabecera-banner-page .slider-page .banner .container .dividir .carousel-especialidad .owl-especialidad-detalle .owl-nav .owl-next {
+    margin-right: -10px;
+}
+
+
+.especialidad #main .cabecera-banner-page .banner .owl-especialidad-detalle div img + ul li {
+    font-size: 14px!important;
+}
+
+
+
+.plan-medico .container-detalle-medico .content-detalle-medico .container .left {
+    padding-left: 0px;
+}
+
+.especialidad #main .flo_cita {
+    top: 27%;
+}
+
+
+.plan-medico .container-detalle-medico .tabset .tab-panels .tab-conten .info .contenido1 > div {
+    padding-left: 66px;
+}
+
+.plan-medico .container-detalle-medico .tabset .tab-panels #dunkles .tab-conten .contenedor .contenido .parte2 .owl-detalle_horario .item {
+    padding: 0px 20px;
+}
+
+
+
+
+.plan-medico .container-detalle-medico .tabset .tab-panels #marzen .tab-conten .info .contenido1 {
+    min-height: 113px;
+}
+
+
+
+.especialidad #main.cabecera-banner-page .slider-page .container .dividir .carousel-especialidad .owl-item.active .item .dividir .anexo ul li:first-child {
+    margin-bottom: 25px;
+}
+
+.especialidad #main.cabecera-banner-page .slider-page .container .dividir .carousel-especialidad .owl-item.active .item .dividir .anexo ul li:last-child {
+    margin-bottom: 0px;
+}
+
+.plan-medico .container-plantel-medico .content-plantel-medico .container ul {
+    margin-top: 53px;
+}
+
+.galeria #main .banner_galeria h1 span {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.noticias .container-banner-noticias .contenido small p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.galeria .galeria_tab .tab-panels section > div {
+    grid-template-columns: 50.7% 22% 27.4%;
+}
+
+
+/*.galeria .content-page.container-plantel-medico section.galeria_tab .tab-panels .tab-panel div>div {
+    border-width: 2.5px;
+}*/
+
+
+/*modificcacion en main.css 13809 - quitar sombras*/
+
+
+.servicio .container-detalle-medico{
+    margin-top: 0px!important;
+}
+
+.investigacion-innovacion .content-page .contenido-investigacion-innovacion .seccion-consite2 .w3-container #tab0 .container-centro-excelencia .av-container.av-visible .content-detalle-medico  .container .left {
+    padding-top: 0px;
+}
+
+
+
+.centro-excelencia .container-centro-excelencia .content-detalle-medico .container .right img {
+    height: auto;
+}
+
+
+
+.centro-excelencia .container-centro-excelencia .content-detalle-medico .container .right img {
+    padding-top: 90px;
+}
+
+.centro-excelencia .container-centro-excelencia .content-detalle-medico .container .left#centroquirurgico {
+    padding-top: 0px;
+}
+
+
+.centro-excelencia .container-centro-excelencia .content-detalle-medico .container .left#emergencias {
+    padding-top: 0px;    
+}
+
+.centro-excelencia .container-centro-excelencia .content-detalle-medico .container .left#unidaddechequeomedico {
+    padding-top: 0px;    
+}
+
+.centro-excelencia .container-centro-excelencia .content-detalle-medico .container .left#unidaddedialisis {
+    padding-top: 0px;    
+}
+
+.centro-excelencia .container-centro-excelencia .content-detalle-medico .container .left#unidaddelitotricia {
+    padding-top: 0px;    
+}
+
+
+.centro-excelencia .container-centro-excelencia {
+        margin-top: -66px;
+}
+
+/*.centro-excelencia .container-centro-excelencia .content-detalle-medico .container .left#centroobstetrico {
+    padding-top: 0px;    
+}*/
+
+/*.container-atencion-usuario .container-contactanos .container {
+    padding: 45px 50px;
+}*/
+
+.plan-medico .container-plantel-medico .content-search .container #buscarPlantel #nombreDr {
+    background-position: 1px;
+}
+
+
+.servicio .container-detalle-medico .content-detalle-medico .container .left {
+    padding-top: 16px;
+}
+
+.servicio.active #main .flo_cita {
+    z-index: 99;
+}
+
+
+.centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(2) .left {
+    padding-bottom: 40px;
+}
+
+
+.centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(3) .left {
+    padding-top: 0px;
+}
+
+.centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(3) {
+    padding-top: 65px;
+}
+
+.centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(3) .right img {
+    padding-top: 0px;
+}
+
+.centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(4) .left {
+    padding-bottom: 40px;
+}
+
+.centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(5) .left {
+    padding-top: 0px;
+}
+
+.centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(5) .right img {
+    padding-top: 0px;
+}
+
+.centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(6) .left {
+    padding-bottom: 40px;
+}
+
+.centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(7) .left {
+    padding-top: 0px;
+}
+
+.centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(7) .right img {
+    padding-top: 0px;
+}
+
+.centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(8) .left {
+    padding-bottom: 40px;
+}
+
+.centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(9) .left {
+    padding-top: 0px;
+}
+
+.centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(9) .right img {
+    padding-top: 0px;
+}
+
+.centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(10) .left {
+    padding-bottom: 40px;
+}
+
+.centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(11) .left {
+    padding-top: 0px;
+}
+
+.centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(11) .right img {
+    padding-top: 0px;
+}
+
+.servicio .container-detalle-medico .content-detalle-medico .container .left {
+    padding: 50px 0;
+}
+
+.investigacion-innovacion .content-page .contenido-investigacion-innovacion .seccion-consite2 #tab1 .container-centro-excelencia .container .left {
+    padding-top: 0px;
+}
+
+.investigacion-innovacion .content-page .contenido-investigacion-innovacion .seccion-consite2 #tab2 .container-centro-excelencia .container .left {
+    padding-top: 0px;
+}
+
+.investigacion-innovacion .content-page .contenido-investigacion-innovacion .seccion-consite2 #tab3 .container-centro-excelencia .container .left {
+    padding-top: 0px;
+}
+
+.servicio .container-detalle-medico .content-detalle-medico .container .right img {
+    margin-top: 66px;
+}
+
+
+
+.plan-medico.active #main .flo_cita {
+    z-index: 99;
+}
+
+.plan-salud.active #main .flo_cita {
+    z-index: 99;
+}
+
+.beneficio-plan-salud.active #main .flo_cita {
+    z-index: 99;
+}
+
+.nosotros.active .container-banner-atencion#main .flo_cita {
+    z-index: 99;
+}
+
+.galeria.active #main .flo_cita {
+    z-index: 99;
+}
+
+/*.plan-medico.active #main #sideNavigation {
+    z-index: 9999!important;
+}
+
+.plan-medico.active .container-banner-plantel-medico .sidenav {
+    z-index: 999999;
+}*/
+
+
+@media (max-width: 830px) {
+    .servicio .container-detalle-medico .content-detalle-medico .container .left {
+        width: auto;
+        padding-bottom: 0px;
+    }
+
+    .servicio .container-detalle-medico .content-detalle-medico .container .left p:nth-child(2) {
+        margin-bottom: 0px;
+    }
+
+    .servicio .container-detalle-medico .content-detalle-medico .container .left p:nth-child(3) {
+        margin: auto;
+    }
+
+    .servicio .container-detalle-medico .content-detalle-medico .container .right img {
+        margin-top: 0px;
+    }
+}
+
+
+@media (max-width: 829px) {
+    .servicio .container-detalle-medico .content-detalle-medico .container .left ul li {
+        text-align: left;
+    }
+}
+
+
+.plan-medico .container-detalle-medico .content-detalle-medico .container .left .row #container-contacto #icon-tel img {
+    width: 45px;
+}
+
+@media (max-width: 829px) {
+    .plan-medico .container-detalle-medico .content-detalle-medico .container .left .row #container-contacto #icon-tel img {
+        height: 45px;
+    }
+}
+
+.plan-medico .container-detalle-medico .tab-conten .contenedor .contenido .parte2:Before {
+    width: 1px;
+}
+
+.especialidad #main .cabecera-banner-page .slider-page .container .item .dividir > div img {
+    margin-top: 13px;
+}
+
+
+.especialidad #main .cabecera-banner-page .slider-page .container .item .dividir div:nth-child(2) .anexo img {
+    margin-top: 0px;
+    width: 55px;
+    margin-bottom: 7px;
+}
+
+
+.especialidad .container-detalle-medico {
+    margin-top: 0px;
+}
+
+
+.especialidad .container-detalle-medico .container-plantel-medico .content-plantel-medico .container #itemContainerMedico {
+    margin-top: 50px;
+}
+
+
+.especialidad .container-detalle-medico .container-plantel-medico .content-plantel-medico ul li {
+    margin: 0 25px;
+}
+
+
+.especialidad #main .cabecera-banner-page .slider-page .container .dividir .carousel-especialidad .miniaturas a {
+    border: 1px solid #dbdbdb;
+}
+
+
+@media (max-width: 829px) {
+
+    .centro-excelencia .container-centro-excelencia .content-detalle-medico .container .left {
+        padding-left: 0px;
+    }
+
+    .centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(1) {
+        padding-bottom: 0px;
+    }
+
+    .centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(1) .container {
+        padding-bottom: 0px;
+    }
+
+    .centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(1) .container .btn.btn-red {
+        margin-bottom: 0px;
+    }
+
+    .centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(2) .container .btn.btn-red {
+        margin-bottom: 0px;
+    }
+
+    .centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(3) .container .btn.btn-red {
+        margin-bottom: 0px;
+    }
+
+    .centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(4) .container .btn.btn-red {
+        margin-bottom: 0px;
+    }
+
+    .centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(5) .container .btn.btn-red {
+        margin-bottom: 0px;
+    }
+
+    .centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(6) .container .btn.btn-red {
+        margin-bottom: 0px;
+    }
+
+    .centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(7) .container .btn.btn-red {
+        margin-bottom: 0px;
+    }
+
+    .centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(8) .container .btn.btn-red {
+        margin-bottom: 0px;
+    }
+
+    .centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(9) .container .btn.btn-red {
+        margin-bottom: 0px;
+    }
+
+    .centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(10) .container .btn.btn-red {
+        margin-bottom: 0px;
+    }
+
+    .centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(11) .container .btn.btn-red {
+        margin-bottom: 0px;
+    }
+
+
+    .centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(1) .container .left {
+        padding-top: 50px;
+    }
+
+    .centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(1) .container .right {
+        margin: 0;
+    }
+
+    .centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(2) {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(2) .container .right {
+        margin-top: 0px;
+    }
+
+    .centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(2) .container {
+        padding-bottom: 0px;
+    }
+
+    .centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(3) {
+        padding-top: 45px!important;
+        padding-bottom: 0px;
+    }
+
+    .centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(3) .container {
+        padding-bottom: 0px;
+    }
+
+    .centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(4) {
+        padding-top: 0px;
+        padding-bottom: 40px;
+    }
+
+    .centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(4) .container {
+        padding-bottom: 0px;
+    }
+
+    .centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(4) .container .right {
+        margin-top: 0px;
+    }
+
+    .centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(5) {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(5) .container {
+        padding-bottom: 0px;
+    }
+
+    .centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(5) .container .right {
+        margin: 0;
+    }
+
+    .centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(6) {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(6) .container {
+        padding-bottom: 0px;
+    }
+
+    .centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(6) .container .right {
+        margin-top: 0px;
+    }
+
+   .centro-excelencia  .container-centro-excelencia .content-detalle-medico:nth-child(7) {
+        padding-top: 25px;
+        padding-bottom: 0px;
+    }
+
+    .centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(7) .container {
+        padding-bottom: 0px;
+    }
+
+    .centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(7) .container .right{
+        margin: 0;
+    }
+
+    
+    .centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(8) .container .right {
+        margin-top: 0px;
+    }
+
+    .centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(8){
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+
+    .centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(9) {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(9) .container {
+        padding-bottom: 0px;
+    }
+
+    .centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(10)  {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+   .centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(10) .container {
+        padding-bottom: 0px;
+    }
+
+   .centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(10) .container .right {
+        margin-top: 0px;
+    }
+
+   .centro-excelencia .container-centro-excelencia .content-detalle-medico:nth-child(11) {
+        padding-top: 40px;
+    }
+
+
+}
+
+.galeria #main .banner_galeria {
+    margin-top: 84px;
+}
+
+
+.plan-medico .container-detalle-medico .tab-panels .tab-conten .info .contenido1 .profe {
+    padding-left: 20px!important;
+}
+
+/*.galeria .content-page .container-plantel-medico .galeria_tab .tab-panels #categoria1 div:nth-child(2) {
+    
+    
+}*/
+
+.galeria .content-page.container-plantel-medico .galeria_tab .tabset .tab-panels #categoria1 div:nth-child(2n) #div1 {order: 3;}
+.galeria .content-page.container-plantel-medico .galeria_tab .tabset .tab-panels #categoria1 div:nth-child(2n) #div2 {order: 2;}
+.galeria .content-page.container-plantel-medico .galeria_tab .tabset .tab-panels #categoria1 div:nth-child(2n) #div3 {order: 1;}
+
+
+.galeria .content-page.container-plantel-medico .galeria_tab .tabset .tab-panels #categoria1 div:nth-child(2n) {
+    grid-template-columns: 27.6% 23% 50.7%;
+}
+
+
+.home.active #main .flo_cita {
+    z-index: 99;
+}
+
+
+@media (max-width: 930px) {
+   .galeria .content-page.container-plantel-medico .galeria_tab .tabset .tab-panels #categoria1 div:nth-child(n) {
+        grid-template-columns: 1fr;
+    } 
+}
+
+
+
+.galeria #main .banner_galeria {
+    margin-top: 140px;
+}
+
+.owl-carousel.owl-theme.owl-don-diego.miniaturas.owl-loaded.owl-drag.owl-grab .owl-item.active img {
+    opacity: .50;
+}
+
+
+.servicio .container-detalle-medico .content-detalle-medico .container {
+    padding-bottom: 65px;
+}
+
+.plan-medico .container-detalle-medico .contenido .parte1 {
+    padding-left: 60px;
+}
+
+.plan-medico .container-detalle-medico .contenido .parte2 ul {
+    column-gap: 30px!important;
+}
+
+
+.especialidad #main .cabecera-banner-page .slider-page .container .dividir p{
+    padding-left: 5px;
+}
+
+
+@media (max-width: 1025px) {
+    .galeria #main .banner_galeria {
+        margin-top: 83px;
+    }
+}
+
+@media (max-width: 1060px) {
+    .galeria .content-page.container-plantel-medico .content-foot .container .g-table .g-table-cell h3 {
+        text-align: center;
+    }
+}
+
+
+
+/*.owl-carousel.owl-theme.owl-don-diego.miniaturas.owl-loaded.owl-drag .owl-item.active img {
+    opacity: .50;
+}
+*/
+
+
+/*.owl-carousel.owl-theme.owl-don-diego.miniaturas.owl-loaded.owl-drag*/
+
+
+/*FIN - CAMBIOS FERNANDO*/
+
