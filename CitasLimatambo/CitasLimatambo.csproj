@@ -173,9 +173,15 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Cita.cs" />
+    <Compile Include="Models\Consultorio.cs" />
     <Compile Include="Models\Especialidad.cs" />
+    <Compile Include="Models\EspecialidadPorSede.cs" />
+    <Compile Include="Models\Medico.cs" />
     <Compile Include="Models\Paciente.cs" />
+    <Compile Include="Models\Sede.cs" />
     <Compile Include="Models\Seguro.cs" />
+    <Compile Include="Models\Turno.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
