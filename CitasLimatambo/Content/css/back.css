@@ -1302,3 +1302,16 @@ body.galeria .tab-panels .btn-red {
 
 /*FIN - CAMBIOS FERNANDO*/
 
+
+.header-container {
+    /*background-color: #01B6AF;*/
+    /*color: white;
+		padding: 30px 15px;*/
+    height: 200px;
+    margin-top: 50px;
+    /* background: url('../assets/img/online/SLIDER.png');*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    background-image: url('https://wsreserva.alfavia.net/assets/img/online/SLIDER.png');
+}

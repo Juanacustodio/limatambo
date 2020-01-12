@@ -14,9 +14,15 @@ namespace CitasLimatambo
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
-                name: "Default",
-                url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                name: "Listado",
+                url: "{controller}",
+                defaults: new { controller = "Especialidad", action = "Index"}
+            );
+
+            routes.MapRoute(
+                name: "Detalle",
+                url: "{controller}/{id}",
+                defaults: new { controller = "Especialidad", action = "Detalle", id = UrlParameter.Optional }
             );
         }
     }
