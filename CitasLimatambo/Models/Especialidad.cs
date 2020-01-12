@@ -9,5 +9,7 @@ namespace CitasLimatambo.Models
     {
         public int ID { get; set; }
         public string nombre { get; set; }
+        public string imagen { get; set; }
+        public string imagenVector { get; set; }
     }
 }

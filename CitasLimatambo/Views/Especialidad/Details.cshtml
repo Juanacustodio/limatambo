@@ -1,34 +1,87 @@
 ﻿@model CitasLimatambo.Models.Especialidad
 
-@{
-    Layout = null;
-}
-
-<!DOCTYPE html>
-
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Details</title>
-</head>
-<body>
-    <div>
-        <h4>Especialidad</h4>
-        <hr />
-        <dl class="dl-horizontal">
-            <dt>
-                @Html.DisplayNameFor(model => model.nombre)
-            </dt>
+<div>
+    <h4>Especialidad</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nombre)
+        </dt>
     
-            <dd>
-                @Html.DisplayFor(model => model.nombre)
-            </dd>
+        <dd>
+            @Html.DisplayFor(model => model.nombre)
+        </dd>
     
-        </dl>
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
+
+<div id="main" class="especialidad">
+    <div class="cabecera-banner-page">
+        <section class="slider-page">
+            <ul class="banner">
+                <li style="background-image: url(https://www.crp.com.pe/wp-content/uploads/2018/04/bg-texture-1.jpg)">
+                    <div class="container">
+                        <h2><span style="">Cardiología</span></h2>
+                        <p style="text-align: justify;">Atención de las enfermedades del corazón y del aparato circulatorio</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
     </div>
-    <p>
-        @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
-        @Html.ActionLink("Back to List", "Index")
-    </p>
-</body>
-</html>
+</div>
+
+<div class="container body-content">
+    <main class="container-detalle-medico">
+        <div class="container-plantel-medico">
+            <div class="content-plantel-medico">
+                <div class="container">
+
+                    <ul id="itemContainerMedico">
+
+                        <li>      <a href="/detalle-medico/?cmp=44839">        <figure><img src="/medicosfotos/44839.jpg" alt="image">          <p>            <span><i class="icon-telefono-home"></i> (511) 224·2224 <span> (511) 224·2226</span></span>            <span>Colegiatura: 44839</span>            <!--span><i class="icon-email"></i> rodriguez@rcp.com.pe</span-->              <span class="btn btn-green">ver detalles</span>            </p>          </figure>          <div class="contenido">         <span class="btn btn-green">ver detalle</span>            <strong>Alarcón Santos,</strong>            <strong>Javier</strong>            <span>Cardiología</span></div>        </a>    </li>
+                        <li>      <a href="/detalle-medico/?cmp=21452">        <figure><img src="/medicosfotos/21452.jpg" alt="image">          <p>            <span><i class="icon-telefono-home"></i> (511) 224·2224 <span> (511) 224·2226</span>1296</span>            <span>Colegiatura: 21452</span>            <!--span><i class="icon-email"></i> rodriguez@rcp.com.pe</span-->              <span class="btn btn-green">ver detalles</span>            </p>          </figure>          <div class="contenido">         <span class="btn btn-green">ver detalle</span>            <strong>Ayala Bustamante,</strong>            <strong>Leonor Estela</strong>            <span>Cardiología</span></div>        </a>    </li>
+                        <li>      <a href="/detalle-medico/?cmp=33333">        <figure><img src="/medicosfotos/33333.jpg" alt="image">          <p>            <span><i class="icon-telefono-home"></i> (511) 224·2224 <span> (511) 224·2226</span></span>            <span>Colegiatura: 33333</span>            <!--span><i class="icon-email"></i> rodriguez@rcp.com.pe</span-->              <span class="btn btn-green">ver detalles</span>            </p>          </figure>          <div class="contenido">         <span class="btn btn-green">ver detalle</span>            <strong>Cerna Nomberto,</strong>            <strong>Sandro Felipe</strong>            <span>Cardiología</span></div>        </a>    </li>
+                        <li>      <a href="/detalle-medico/?cmp=17536">        <figure><img src="/medicosfotos/17536.jpg" alt="image">          <p>            <span><i class="icon-telefono-home"></i> (511) 224·2224 <span> (511) 224·2226</span>1339</span>            <span>Colegiatura: 17536</span>            <!--span><i class="icon-email"></i> rodriguez@rcp.com.pe</span-->              <span class="btn btn-green">ver detalles</span>            </p>          </figure>          <div class="contenido">         <span class="btn btn-green">ver detalle</span>            <strong>Drago Silva,</strong>            <strong>José Manuel</strong>            <span>Cardiología</span></div>        </a>    </li>
+                        <li>      <a href="/detalle-medico/?cmp=19116">        <figure><img src="/medicosfotos/19116.jpg" alt="image">          <p>            <span><i class="icon-telefono-home"></i> (511) 224·2224 <span> (511) 224·2226</span>1296</span>            <span>Colegiatura: 19116</span>            <!--span><i class="icon-email"></i> rodriguez@rcp.com.pe</span-->              <span class="btn btn-green">ver detalles</span>            </p>          </figure>          <div class="contenido">         <span class="btn btn-green">ver detalle</span>            <strong>Estela Chunga,</strong>            <strong>Edilberto</strong>            <span>Cardiología</span></div>        </a>    </li>
+                        <li>      <a href="/detalle-medico/?cmp=03346">        <figure><img src="/medicosfotos/03346.jpg" alt="image">          <p>            <span><i class="icon-telefono-home"></i> (511) 224·2224 <span> (511) 224·2226</span>1182</span>            <span>Colegiatura: 03346</span>            <!--span><i class="icon-email"></i> rodriguez@rcp.com.pe</span-->              <span class="btn btn-green">ver detalles</span>            </p>          </figure>          <div class="contenido">         <span class="btn btn-green">ver detalle</span>            <strong>Estremadoyro Pardo,</strong>            <strong>Augusto Armando</strong>            <span>Cardiología</span></div>        </a>    </li>
+                        <li>      <a href="/detalle-medico/?cmp=51181">        <figure><img src="/medicosfotos/doctorsilueta.jpg" alt="image">          <p>            <span><i class="icon-telefono-home"></i> (511) 224·2224 <span> (511) 224·2226</span></span>            <span>Colegiatura: 51181</span>            <!--span><i class="icon-email"></i> rodriguez@rcp.com.pe</span-->              <span class="btn btn-green">ver detalles</span>            </p>          </figure>          <div class="contenido">         <span class="btn btn-green">ver detalle</span>            <strong>Garcia Rosadio,</strong>            <strong>Oscar</strong>            <span>Cardiología</span></div>        </a>    </li>
+                        <li>      <a href="/detalle-medico/?cmp=22977">        <figure><img src="/medicosfotos/22977.jpg" alt="image">          <p>            <span><i class="icon-telefono-home"></i> (511) 224·2224 <span> (511) 224·2226</span>1339</span>            <span>Colegiatura: 22977</span>            <!--span><i class="icon-email"></i> rodriguez@rcp.com.pe</span-->              <span class="btn btn-green">ver detalles</span>            </p>          </figure>          <div class="contenido">         <span class="btn btn-green">ver detalle</span>            <strong>Gutiérrez Boudri,</strong>            <strong>Aldo Justo</strong>            <span>Cardiología</span></div>        </a>    </li>
+                        <li>      <a href="/detalle-medico/?cmp=60984">        <figure><img src="/medicosfotos/60984.jpg" alt="image">          <p>            <span><i class="icon-telefono-home"></i> (511) 224·2224 <span> (511) 224·2226</span></span>            <span>Colegiatura: 60984</span>            <!--span><i class="icon-email"></i> rodriguez@rcp.com.pe</span-->              <span class="btn btn-green">ver detalles</span>            </p>          </figure>          <div class="contenido">         <span class="btn btn-green">ver detalle</span>            <strong>Leon Vivar,</strong>            <strong>Rodrigo Antonio</strong>            <span>Cardiología</span></div>        </a>    </li>
+                        <li>      <a href="/detalle-medico/?cmp=15008">        <figure><img src="/medicosfotos/15008.jpg" alt="image">          <p>            <span><i class="icon-telefono-home"></i> (511) 224·2224 <span> (511) 224·2226</span>1182</span>            <span>Colegiatura: 15008</span>            <!--span><i class="icon-email"></i> rodriguez@rcp.com.pe</span-->              <span class="btn btn-green">ver detalles</span>            </p>          </figure>          <div class="contenido">         <span class="btn btn-green">ver detalle</span>            <strong>López Echazú,</strong>            <strong>Herbert A.</strong>            <span>Cardiología</span></div>        </a>    </li>
+                        <li>      <a href="/detalle-medico/?cmp=42651">        <figure><img src="/medicosfotos/42651.jpg" alt="image">          <p>            <span><i class="icon-telefono-home"></i> (511) 224·2224 <span> (511) 224·2226</span></span>            <span>Colegiatura: 42651</span>            <!--span><i class="icon-email"></i> rodriguez@rcp.com.pe</span-->              <span class="btn btn-green">ver detalles</span>            </p>          </figure>          <div class="contenido">         <span class="btn btn-green">ver detalle</span>            <strong>Mendoza Novoa,</strong>            <strong>Pablo Antonio</strong>            <span>Cardiología</span></div>        </a>    </li>
+                        <li>      <a href="/detalle-medico/?cmp=38483">        <figure><img src="/medicosfotos/38483.jpg" alt="image">          <p>            <span><i class="icon-telefono-home"></i> (511) 224·2224 <span> (511) 224·2226</span></span>            <span>Colegiatura: 38483</span>            <!--span><i class="icon-email"></i> rodriguez@rcp.com.pe</span-->              <span class="btn btn-green">ver detalles</span>            </p>          </figure>          <div class="contenido">         <span class="btn btn-green">ver detalle</span>            <strong>Nolte Rickards,</strong>            <strong>Christian</strong>            <span>Cardiología</span></div>        </a>    </li>
+                        <li>      <a href="/detalle-medico/?cmp=08218">        <figure><img src="/medicosfotos/08218.jpg" alt="image">          <p>            <span><i class="icon-telefono-home"></i> (511) 224·2224 <span> (511) 224·2226</span>1296</span>            <span>Colegiatura: 08218</span>            <!--span><i class="icon-email"></i> rodriguez@rcp.com.pe</span-->              <span class="btn btn-green">ver detalles</span>            </p>          </figure>          <div class="contenido">         <span class="btn btn-green">ver detalle</span>            <strong>Ramírez Román,</strong>            <strong>Guillermo José</strong>            <span>Cardiología</span></div>        </a>    </li>
+                        <li>      <a href="/detalle-medico/?cmp=32250">        <figure><img src="/medicosfotos/32250.jpg" alt="image">          <p>            <span><i class="icon-telefono-home"></i> (511) 224·2224 <span> (511) 224·2226</span>1296</span>            <span>Colegiatura: 32250</span>            <!--span><i class="icon-email"></i> rodriguez@rcp.com.pe</span-->              <span class="btn btn-green">ver detalles</span>            </p>          </figure>          <div class="contenido">         <span class="btn btn-green">ver detalle</span>            <strong>Ríos Navarro,</strong>            <strong>Patricia</strong>            <span>Cardiología</span></div>        </a>    </li>
+                        <li>      <a href="/detalle-medico/?cmp=25912">        <figure><img src="/medicosfotos/25912.jpg" alt="image">          <p>            <span><i class="icon-telefono-home"></i> (511) 224·2224 <span> (511) 224·2226</span>1182</span>            <span>Colegiatura: 25912</span>            <!--span><i class="icon-email"></i> rodriguez@rcp.com.pe</span-->              <span class="btn btn-green">ver detalles</span>            </p>          </figure>          <div class="contenido">         <span class="btn btn-green">ver detalle</span>            <strong>Robles Encinas,</strong>            <strong>Percy Zanik</strong>            <span>Cardiología</span></div>        </a>    </li>
+                        <li>      <a href="/detalle-medico/?cmp=61629">        <figure><img src="/medicosfotos/61629.jpg" alt="image">          <p>            <span><i class="icon-telefono-home"></i> (511) 224·2224 <span> (511) 224·2226</span></span>            <span>Colegiatura: 61629</span>            <!--span><i class="icon-email"></i> rodriguez@rcp.com.pe</span-->              <span class="btn btn-green">ver detalles</span>            </p>          </figure>          <div class="contenido">         <span class="btn btn-green">ver detalle</span>            <strong>Romero Salazar,</strong>            <strong>Marco Antonio</strong>            <span>Cardiología</span></div>        </a>    </li>
+                    </ul>
+
+
+                    <center><a class="btn btn-red" style="" id="cargar_e">ver más</a></center>
+
+                    <input type="hidden" name="page" id="page" value="16">
+                    <input type="hidden" name="c_b2" id="c_b2" value="0">
+                    <input type="hidden" name="url_tema" id="url_tema" value="https://www.crp.com.pe/wp-content/themes/crp/">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="av-container av-visible">
+            <div class="content-foot aniview animated fadeIn" data-av-animation="fadeIn" style="background-image: url(&quot;https://www.crp.com.pe/wp-content/uploads/2018/04/bg-banner.jpg&quot;); opacity: 1;">
+                <div class="container">
+                    <div class="g-table">
+                        <div class="g-table-cell">
+                            <h3>Reserva tu <b>cita en línea</b></h3><a class="btn btn-red" target="_blank" href="https://wsreserva.alfavia.net/citaweb">agenda ahora</a>
+                        </div>
+                    </div>
+                    <figure><img src="https://www.crp.com.pe/wp-content/uploads/2018/04/img-foot.png" alt=""></figure>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>

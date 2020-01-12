@@ -22,7 +22,7 @@ namespace CitasLimatambo
             routes.MapRoute(
                 name: "Detalle",
                 url: "{controller}/{id}",
-                defaults: new { controller = "Especialidad", action = "Detalle", id = UrlParameter.Optional }
+                defaults: new { controller = "Especialidad", action = "Details", id = UrlParameter.Optional }
             );
         }
     }

@@ -7078,7 +7078,6 @@ footer {
     background-size: cover !important;
     display: block;
     font-size: 0;
-    height: 518px;
     width: 100%;
     z-index: 999; }
     @media screen and (min-width: 1024px) {
@@ -12765,7 +12764,7 @@ footer {
   @media screen and (min-width: 980px) {
     .especialidad .cabecera-banner-page {
       height: 100%;
-      margin: 142px auto 0 auto;
+      margin: 0 auto 0 auto;
       background-color: #4fbcb7;
       z-index: 2; } }
   .especialidad .cabecera-banner-page .slider-page {
@@ -14327,37 +14326,8 @@ body.plan-medico .content-detalle-medico .right img {
 
 }
 
-.especialidad .cabecera-banner-page .container{
-  padding: 0
-}
-.especialidad .cabecera-banner-page .slider-page{
-  height: 600px;
-}
-
-.especialidad .cabecera-banner-page .slider-page .dividir{
-  display: grid;
-  grid-template-columns: 40% 60%;
-  align-items: center;
-  height: 550px;
-}
-
-.especialidad .cabecera-banner-page .slider-page .dividir p{
-  text-align: left !important;
-}
-
 .especialidad .cabecera-banner-page .banner > li{
   position: relative;
-}
-
-.especialidad .cabecera-banner-page .banner > li:before{
-  content: "";
-  background: #F4F4F4;
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 59.5%;
-  height: 100vh;
-  display: inline-block;
 }
 
 .especialidad .cabecera-banner-page .banner .owl-carousel img{
@@ -14410,16 +14380,6 @@ body.plan-medico .content-detalle-medico .right img {
   background: #E5425A;
   color: white;
   /* padding: 14px; */
-}
-
-.especialidad .cabecera-banner-page .banner .owl-especialidad-detalle .dividir{
-  width: 90%;
-  margin: 0 auto;
-  grid-template-columns: 50% 50%
-}
-
-.especialidad .cabecera-banner-page .banner .owl-especialidad-detalle .dividir div:first-child{
-  text-align: center;
 }
 
 .especialidad .cabecera-banner-page .banner .owl-especialidad-detalle .owl-nav{
@@ -14484,25 +14444,10 @@ body.plan-medico .content-detalle-medico .right img {
 }
 
 @media (max-width: 1024px){
-  .especialidad .cabecera-banner-page .slider-page .dividir{
-    grid-template-columns: 100%
-  }
   .especialidad .cabecera-banner-page{
     margin: 82px auto 0 auto
   }
-  .especialidad .cabecera-banner-page .banner .dividir > div:first-child{
-    padding: 20px;
-    height: 249px;
-    text-align: center;
-  }
-  .especialidad .cabecera-banner-page .banner > li::before{
-    top: 249px;
-    width: 100%
-  }
   .especialidad .cabecera-banner-page .slider-page{
-    height: auto;
-  }
-  .especialidad .cabecera-banner-page .slider-page .container > .dividir{
     height: auto;
   }
   .especialidad .cabecera-banner-page{
@@ -14510,46 +14455,12 @@ body.plan-medico .content-detalle-medico .right img {
       height: auto;
 
   }
-  .especialidad .cabecera-banner-page .banner .dividir > div:first-child{
-    display: grid;
-    align-items: center;
-  }
-  .especialidad .cabecera-banner-page .banner .dividir > div:first-child h2 span{
-    text-align: center;
-  }
-  .especialidad .cabecera-banner-page .slider-page .dividir p{
-    display:  block
-  }
-  .especialidad .cabecera-banner-page .banner .owl-especialidad-detalle .dividir div:first-child{
-    height: auto;
-  }
-  .especialidad .cabecera-banner-page .slider-page .dividir p{
-    text-align: center !important;
-    width: 100%;
-    padding: 0;
-  }
 }
 
 @media (max-width: 700px){
-  .especialidad .cabecera-banner-page .banner .owl-especialidad-detalle .dividir{
-    grid-template-columns: 100%
-  }
-  .especialidad .cabecera-banner-page .slider-page .dividir{
-    height: auto;
-  }
-  .especialidad .cabecera-banner-page .banner .owl-especialidad-detalle .dividir div:last-child{
-    order: 1;
-    padding: 30px 0;
-  }
-  .especialidad .cabecera-banner-page .banner .owl-especialidad-detalle .dividir div:first-child{
-    order: 2
-  }
   .especialidad .cabecera-banner-page .banner .owl-especialidad-detalle div img{
     display: block;
     margin: 0 auto
-  }
-  .especialidad .cabecera-banner-page .banner .owl-especialidad-detalle .dividir div:last-child div img{
-    display: inline-block;
   }
   .especialidad .cabecera-banner-page .banner .owl-especialidad-detalle a{
     margin: 0 auto;
@@ -14558,13 +14469,6 @@ body.plan-medico .content-detalle-medico .right img {
   .especialidad .cabecera-banner-page .banner .owl-especialidad-detalle .owl-nav .owl-next{
     margin-right: 20px
   }
-}
-
-@media (max-width: 430px){
-  .especialidad .cabecera-banner-page .banner .owl-especialidad-detalle .dividir div:first-child img{
-    width: 70%
-  }
-  
 }
 
 .plan-medico .container-detalle-medico .contenido .parte2:Before{

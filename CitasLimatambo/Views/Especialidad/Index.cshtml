@@ -4,39 +4,98 @@
     ViewBag.Title = "Clínica Limatambo | Especialidades";
 }
 
-<!DOCTYPE html>
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.nombre)
+        </th>
+        <th></th>
+    </tr>
 
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
-</head>
-<body>
-    <p>
-        @Html.ActionLink("Create New", "Create")
-    </p>
-    <table class="table">
+    @foreach (var item in Model)
+    {
         <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.nombre)
-            </th>
-            <th></th>
+            <td>
+                @Html.DisplayFor(modelItem => item.nombre)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
+                @Html.ActionLink("Details", "Details", new { id = item.ID }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.ID })
+            </td>
         </tr>
+    }
 
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.nombre)
-                </td>
-                <td>
-                    @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
-                    @Html.ActionLink("Details", "Details", new { id = item.ID }) |
-                    @Html.ActionLink("Delete", "Delete", new { id = item.ID })
-                </td>
-            </tr>
-        }
+</table>
 
-    </table>
-</body>
-</html>
+
+<div class="container body-content">
+    <main class="container-servicio-apoyo">
+        <div class="content-search">
+            <div class="container">
+                <form action="" id="buscarPlantel" method="get">
+                    <div class="content-input-circle box-1">
+                        <select class="select-circle" name="sedes" id="sedes" style="display: none;">
+                            <option selected="" value="0">Sede principal</option>
+                        </select><span tabindex="0" id="sedes-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="sedes-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text">Sede principal</span></span>
+                    </div>
+                    <div class="content-input-circle">
+                        <input class="btn btn-red" type="submit" value="buscar">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="av-container av-visible">
+            <div class="content-servicio-apoyo-diagnostico aniview animated fadeIn" data-av-animation="fadeIn" style="opacity: 1;">
+                <div class="container">
+                    <div class="owl-servicio-diagnostico">
+                        @foreach (var item in Model)
+                        {
+                            <div class="item">
+                                <div class="titulo_boton">
+                                    <a href="/especialidad/1" onclick="" class="boton_mostrar">
+                                        <img src="@Html.DisplayFor(modelItem => item.imagenVector)" alt="">
+                                        <img class="hover_servicio_img" src="@Html.DisplayFor(modelItem => item.imagen)" alt="">
+                                        <span>@Html.DisplayFor(modelItem => item.nombre)</span>
+                                    </a>
+                                </div>
+                            </div>
+                        }
+                        <div class="item">
+                            <div class="titulo_boton">
+                                <a href="https://www.crp.com.pe/especialidad/alergia-e-inmunidad/?idEspecialidad=01" onclick="" class="boton_mostrar">
+                                    <img src="https://www.crp.com.pe/wp-content/uploads/2018/04/alergia-inmunologia82.png" alt="">
+                                    <img class="hover_servicio_img" src="https://www.crp.com.pe/wp-content/uploads/2018/12/alergia-e-imunologia.png" alt=""><span>Alergia e inmunidad</span>
+                                </a>
+                            </div>
+
+                        </div>
+                        <div class="item">
+                            <div class="titulo_boton">
+                                <a href="https://www.crp.com.pe/especialidad/anatomia-patologica/?idEspecialidad=43" onclick="" class="boton_mostrar">
+                                    <img src="https://www.crp.com.pe/wp-content/uploads/2018/04/Patología82.png" alt="">
+                                    <img class="hover_servicio_img" src="https://www.crp.com.pe/wp-content/uploads/2018/04/patologia-1.png" alt=""><span>Anatomía patológica</span>
+                                </a>
+                            </div>
+
+                        </div>
+                        <div class="item">
+                            <div class="titulo_boton">
+                                <a href="https://www.crp.com.pe/especialidad/anestesiologia/?idEspecialidad=02" onclick="" class="boton_mostrar">
+                                    <img src="https://www.crp.com.pe/wp-content/uploads/2018/12/anestesiología82.png" alt="">
+                                    <img class="hover_servicio_img" src="https://www.crp.com.pe/wp-content/uploads/2018/12/Anestesiología.png" alt=""><span>Anestesiología</span>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+</div>
