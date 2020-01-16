@@ -168,7 +168,9 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\EspecialidadController.cs" />
+    <Compile Include="Controllers\EspecialidadPorSedeController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\SedeController.cs" />
     <Compile Include="DAL\LimatamboContext.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -206,6 +208,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Scripts\back.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="fonts\open_sans\opensans-bold-webfont.woff" />
@@ -234,6 +237,7 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\recursos.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -255,6 +259,16 @@
     <Content Include="Views\Especialidad\Details.cshtml" />
     <Content Include="Views\Especialidad\Edit.cshtml" />
     <Content Include="Views\Especialidad\Index.cshtml" />
+    <Content Include="Views\EspecialidadPorSede\Create.cshtml" />
+    <Content Include="Views\EspecialidadPorSede\Delete.cshtml" />
+    <Content Include="Views\EspecialidadPorSede\Details.cshtml" />
+    <Content Include="Views\EspecialidadPorSede\Edit.cshtml" />
+    <Content Include="Views\EspecialidadPorSede\Index.cshtml" />
+    <Content Include="Views\Sede\Create.cshtml" />
+    <Content Include="Views\Sede\Delete.cshtml" />
+    <Content Include="Views\Sede\Details.cshtml" />
+    <Content Include="Views\Sede\Edit.cshtml" />
+    <Content Include="Views\Sede\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

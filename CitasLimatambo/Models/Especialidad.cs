@@ -11,5 +11,7 @@ namespace CitasLimatambo.Models
         public string nombre { get; set; }
         public string imagen { get; set; }
         public string imagenVector { get; set; }
+
+        public virtual ICollection<EspecialidadPorSede> especialidadesPorSede { get; set; }
     }
 }

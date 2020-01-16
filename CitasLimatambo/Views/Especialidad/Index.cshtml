@@ -4,34 +4,6 @@
     ViewBag.Title = "Clínica Limatambo | Especialidades";
 }
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.nombre)
-        </th>
-        <th></th>
-    </tr>
-
-    @foreach (var item in Model)
-    {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.nombre)
-            </td>
-            <td>
-                @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
-                @Html.ActionLink("Details", "Details", new { id = item.ID }) |
-                @Html.ActionLink("Delete", "Delete", new { id = item.ID })
-            </td>
-        </tr>
-    }
-
-</table>
-
-
 <div class="container body-content">
     <main class="container-servicio-apoyo">
         <div class="content-search">
@@ -57,7 +29,7 @@
                         {
                             <div class="item">
                                 <div class="titulo_boton">
-                                    <a href="/especialidad/1" onclick="" class="boton_mostrar">
+                                    <a href="/especialidad/@Html.DisplayFor(modelItem => item.ID)" onclick="" class="boton_mostrar">
                                         <img src="@Html.DisplayFor(modelItem => item.imagenVector)" alt="">
                                         <img class="hover_servicio_img" src="@Html.DisplayFor(modelItem => item.imagen)" alt="">
                                         <span>@Html.DisplayFor(modelItem => item.nombre)</span>
@@ -65,33 +37,6 @@
                                 </div>
                             </div>
                         }
-                        <div class="item">
-                            <div class="titulo_boton">
-                                <a href="https://www.crp.com.pe/especialidad/alergia-e-inmunidad/?idEspecialidad=01" onclick="" class="boton_mostrar">
-                                    <img src="https://www.crp.com.pe/wp-content/uploads/2018/04/alergia-inmunologia82.png" alt="">
-                                    <img class="hover_servicio_img" src="https://www.crp.com.pe/wp-content/uploads/2018/12/alergia-e-imunologia.png" alt=""><span>Alergia e inmunidad</span>
-                                </a>
-                            </div>
-
-                        </div>
-                        <div class="item">
-                            <div class="titulo_boton">
-                                <a href="https://www.crp.com.pe/especialidad/anatomia-patologica/?idEspecialidad=43" onclick="" class="boton_mostrar">
-                                    <img src="https://www.crp.com.pe/wp-content/uploads/2018/04/Patología82.png" alt="">
-                                    <img class="hover_servicio_img" src="https://www.crp.com.pe/wp-content/uploads/2018/04/patologia-1.png" alt=""><span>Anatomía patológica</span>
-                                </a>
-                            </div>
-
-                        </div>
-                        <div class="item">
-                            <div class="titulo_boton">
-                                <a href="https://www.crp.com.pe/especialidad/anestesiologia/?idEspecialidad=02" onclick="" class="boton_mostrar">
-                                    <img src="https://www.crp.com.pe/wp-content/uploads/2018/12/anestesiología82.png" alt="">
-                                    <img class="hover_servicio_img" src="https://www.crp.com.pe/wp-content/uploads/2018/12/Anestesiología.png" alt=""><span>Anestesiología</span>
-                                </a>
-                            </div>
-
-                        </div>
                     </div>
                 </div>
             </div>

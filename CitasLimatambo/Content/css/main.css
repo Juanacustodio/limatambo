@@ -9255,19 +9255,9 @@ footer {
       font-size: 25px; } }
 
 .container-detalle-medico {
-  margin-top: 55px;
   display: block;
   position: relative;
   width: 100%; }
-  @media screen and (min-width: 830px) {
-    .container-detalle-medico {
-      margin-top: 71px; } }
-  @media screen and (min-width: 1024px) {
-    .container-detalle-medico {
-      margin-top: 136px; } }
-  @media screen and (min-width: 1080px) {
-    .container-detalle-medico {
-      margin-top: 142px; } }
   .container-detalle-medico .content-detalle-medico {
     display: block;
     font-size: 0;

@@ -11,5 +11,7 @@ namespace CitasLimatambo.Models
         public string nombre { get; set; }
         public string direccion { get; set; }
         public string telefono { get; set; }
+
+        public virtual ICollection<EspecialidadPorSede> especialidadesPorSede { get; set; }
     }
 }

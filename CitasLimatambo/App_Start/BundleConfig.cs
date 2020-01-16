@@ -22,6 +22,10 @@ namespace CitasLimatambo
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js"));
 
+            bundles.Add(new StyleBundle("~/Scripts/js").Include(
+                      "~/Scripts/back.js",
+                      "~/Scripts/recursos.js"));
+
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css",

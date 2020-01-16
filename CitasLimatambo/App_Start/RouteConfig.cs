@@ -16,7 +16,7 @@ namespace CitasLimatambo
             routes.MapRoute(
                 name: "Listado",
                 url: "{controller}",
-                defaults: new { controller = "Especialidad", action = "Index"}
+                defaults: new { controller = "Sede", action = "Index"}
             );
 
             routes.MapRoute(

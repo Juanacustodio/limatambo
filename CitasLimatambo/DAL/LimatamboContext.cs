@@ -17,10 +17,13 @@ namespace CitasLimatambo.DAL
         }
 
         public DbSet<Especialidad> Especialidad { get; set; }
+        public DbSet<EspecialidadPorSede> EspecialidadPorSedes { get; set; }
+        public DbSet<Sede> Sede { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
         }
+
     }
 }
