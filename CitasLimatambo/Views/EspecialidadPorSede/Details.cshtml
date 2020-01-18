@@ -1,38 +1,8 @@
 ﻿@model CitasLimatambo.Models.EspecialidadPorSede
 
-
-<div>
-    <h4>EspecialidadPorSede</h4>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.idSede)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.idSede)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.idEspecialidad)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.idEspecialidad)
-        </dd>
-
-    </dl>
-</div>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>
-
-
-
-
-
-
+@{
+    ViewBag.Title = Model.especialidad.nombre + " | Clínica Limatambo";
+}
 
 <div id="main" class="especialidad">
     <div class="cabecera-banner-page">
@@ -41,7 +11,6 @@
                 <li style="background-image: url(https://www.crp.com.pe/wp-content/uploads/2018/04/bg-texture-1.jpg)">
                     <div class="container">
                         <h2><span style="">@Html.DisplayFor(model => model.especialidad.nombre)</span></h2>
-                        <p style="text-align: justify;">Atención de las enfermedades del corazón y del aparato circulatorio</p>
                     </div>
                 </li>
             </ul>

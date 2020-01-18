@@ -6210,8 +6210,10 @@ header {
       background-position: top center;
       background-position: -28px 0;
       padding: 20px 25px;
-      min-height: 136px; } }
+    }
+  }
   header .logo {
+      margin-top: 10px;
     display: inline-block;
     width: 150px;
     position: absolute;
@@ -12754,7 +12756,7 @@ footer {
   @media screen and (min-width: 980px) {
     .especialidad .cabecera-banner-page {
       height: 100%;
-      margin: 0 auto 0 auto;
+      margin: 142px auto 0 auto;
       background-color: #4fbcb7;
       z-index: 2; } }
   .especialidad .cabecera-banner-page .slider-page {
@@ -14048,10 +14050,6 @@ body.plan-medico .content-detalle-medico .right img {
   left: -200vw;
 }
 
-.plan-medico .tabset .tab-panel {
-  display: none;
-}
-
 .plan-medico .tabset > input:first-child:checked ~ .tab-panels > .tab-panel:first-child,
 .plan-medico .tabset > input:nth-child(3):checked ~ .tab-panels > .tab-panel:nth-child(2),
 .plan-medico .tabset > input:nth-child(5):checked ~ .tab-panels > .tab-panel:nth-child(3),
@@ -14159,7 +14157,7 @@ body.plan-medico .content-detalle-medico .right img {
 
 .plan-medico .container-detalle-medico .contenido{
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 25% 75%;
   background: #F9F9F9;
 }
 

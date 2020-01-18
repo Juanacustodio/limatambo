@@ -1,0 +1,71 @@
+﻿@model CitasLimatambo.Models.Medico
+
+@{
+    ViewBag.Title = Model.nombre + " | Clínica Limatambo";
+}
+
+    <div class="plan-medico">
+        <main class="container-detalle-medico">
+            <input type="hidden" name="idSede" id="idSede" value="">
+
+            <div class="content-detalle-medico">
+                <div class="container">
+                    <div class="right"><img src="@Html.DisplayFor(model => model.foto)" alt=""></div>
+                    <div class="left">
+                        <b class="txt-cargo">
+                            @Html.DisplayFor(model => model.especialidadPorSede.especialidad.nombre)
+                        </b>
+                        <h1>@Html.DisplayFor(model => model.apellido), @Html.DisplayFor(model => model.nombre)</h1>
+                        <hr>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- TABS -->
+            <div class="tabset">
+                <div class="tab-panels">
+                    <section id="dunkles" class="tab-panel">
+                        <div class="tab-conten">
+                            <h4> @Html.DisplayFor(model => model.especialidadPorSede.sede.nombre) </h4>
+                            <div class="contenedor">
+                                <div class="contenido">
+                                    <div class="parte1">
+                                        <div class="img">
+                                            <img src="https://www.crp.com.pe/wp-content/themes/crp/images/detalle-medico/Grupo_2369.png">
+                                            <div class="txt">
+                                                <p> <span>Dirección:</span> <br> @Html.DisplayFor(model => model.especialidadPorSede.sede.direccion)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="parte2">
+                                        <div class="owl-detalle_horario owl-carousel owl-theme owl-loaded owl-drag">
+                                            <div class="owl-stage-outer">
+                                                <div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0.25s ease 0s; width: 916px;">
+                                                    <div class="owl-item active" style="width: 448px; margin-right: 10px;">
+                                                        <div class="item">
+                                                            <div class="contenido-horario">
+                                                                <h4><strong>Horario de atención</strong></h4>
+                                                            </div>
+                                                            <ul>
+                                                                <li><span>Lunes :</span>09:20 - 13:20</li>
+                                                                <li><span>Martes :</span>09:20 - 13:20</li>
+                                                                <li><span>Miércoles :</span>09:20 - 13:20</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div><div class="owl-nav"><div class="owl-prev disabled"></div><div class="owl-next"></div></div><div class="owl-dots"><div class="owl-dot active"><span></span></div><div class="owl-dot"><span></span></div></div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+            </div>
+        </main>
+    </div>
